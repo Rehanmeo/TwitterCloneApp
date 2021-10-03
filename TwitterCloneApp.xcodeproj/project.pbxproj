@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D5C7E1626F7F95700E77207 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C7E1526F7F95700E77207 /* MenuVC.swift */; };
+		5D69371D26EE7BAD000DADAE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69371C26EE7BAD000DADAE /* HomeVC.swift */; };
+		5D69372126EECA93000DADAE /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69372026EECA93000DADAE /* TabbarVC.swift */; };
+		5D7DEFE826F6807000AB38D5 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DEFE726F6807000AB38D5 /* SearchVC.swift */; };
+		5D7DEFEB26F680C000AB38D5 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DEFEA26F680C000AB38D5 /* NotificationVC.swift */; };
+		5D7DEFEE26F680D900AB38D5 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DEFED26F680D900AB38D5 /* MessageVC.swift */; };
 		5D84B69026ED69B600477584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84B68F26ED69B600477584 /* AppDelegate.swift */; };
 		5D84B69226ED69B600477584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84B69126ED69B600477584 /* SceneDelegate.swift */; };
-		5D84B69426ED69B600477584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84B69326ED69B600477584 /* ViewController.swift */; };
-		5D84B69726ED69B600477584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84B69526ED69B600477584 /* Main.storyboard */; };
 		5D84B69926ED69B700477584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D84B69826ED69B700477584 /* Assets.xcassets */; };
 		5D84B69C26ED69B700477584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84B69A26ED69B700477584 /* LaunchScreen.storyboard */; };
+		5D84B6A726ED6AB500477584 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84B6A626ED6AB500477584 /* LoginVC.swift */; };
+		5D84B6AD26ED8EEE00477584 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84B6AC26ED8EEE00477584 /* SignupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D5C7E1526F7F95700E77207 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		5D69371C26EE7BAD000DADAE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5D69372026EECA93000DADAE /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		5D7DEFE726F6807000AB38D5 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5D7DEFEA26F680C000AB38D5 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		5D7DEFED26F680D900AB38D5 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
 		5D84B68C26ED69B600477584 /* TwitterCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D84B68F26ED69B600477584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D84B69126ED69B600477584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D84B69326ED69B600477584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5D84B69626ED69B600477584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D84B69826ED69B700477584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D84B69B26ED69B700477584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D84B69D26ED69B700477584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D84B6A626ED6AB500477584 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5D84B6AC26ED8EEE00477584 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D5C7E1426F7F94000E77207 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5D5C7E1526F7F95700E77207 /* MenuVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		5D69371F26EECA69000DADAE /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				5D69372026EECA93000DADAE /* TabbarVC.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
 		5D84B68326ED69B600477584 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +84,37 @@
 		5D84B68E26ED69B600477584 /* TwitterCloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				5D84B6AA26ED74D200477584 /* Utilies */,
+				5D84B6A526ED6A9A00477584 /* View */,
 				5D84B68F26ED69B600477584 /* AppDelegate.swift */,
 				5D84B69126ED69B600477584 /* SceneDelegate.swift */,
-				5D84B69326ED69B600477584 /* ViewController.swift */,
-				5D84B69526ED69B600477584 /* Main.storyboard */,
 				5D84B69826ED69B700477584 /* Assets.xcassets */,
 				5D84B69A26ED69B700477584 /* LaunchScreen.storyboard */,
 				5D84B69D26ED69B700477584 /* Info.plist */,
 			);
 			path = TwitterCloneApp;
+			sourceTree = "<group>";
+		};
+		5D84B6A526ED6A9A00477584 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D5C7E1426F7F94000E77207 /* Menu */,
+				5D69371F26EECA69000DADAE /* TabbarController */,
+				5D84B6A626ED6AB500477584 /* LoginVC.swift */,
+				5D84B6AC26ED8EEE00477584 /* SignupVC.swift */,
+				5D69371C26EE7BAD000DADAE /* HomeVC.swift */,
+				5D7DEFE726F6807000AB38D5 /* SearchVC.swift */,
+				5D7DEFEA26F680C000AB38D5 /* NotificationVC.swift */,
+				5D7DEFED26F680D900AB38D5 /* MessageVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D84B6AA26ED74D200477584 /* Utilies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +176,6 @@
 			files = (
 				5D84B69C26ED69B700477584 /* LaunchScreen.storyboard in Resources */,
 				5D84B69926ED69B700477584 /* Assets.xcassets in Resources */,
-				5D84B69726ED69B600477584 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +186,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D84B69426ED69B600477584 /* ViewController.swift in Sources */,
+				5D84B6AD26ED8EEE00477584 /* SignupVC.swift in Sources */,
+				5D7DEFEE26F680D900AB38D5 /* MessageVC.swift in Sources */,
+				5D69371D26EE7BAD000DADAE /* HomeVC.swift in Sources */,
+				5D69372126EECA93000DADAE /* TabbarVC.swift in Sources */,
 				5D84B69026ED69B600477584 /* AppDelegate.swift in Sources */,
 				5D84B69226ED69B600477584 /* SceneDelegate.swift in Sources */,
+				5D84B6A726ED6AB500477584 /* LoginVC.swift in Sources */,
+				5D7DEFE826F6807000AB38D5 /* SearchVC.swift in Sources */,
+				5D7DEFEB26F680C000AB38D5 /* NotificationVC.swift in Sources */,
+				5D5C7E1626F7F95700E77207 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5D84B69526ED69B600477584 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D84B69626ED69B600477584 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5D84B69A26ED69B700477584 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehan.TwitterCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehan.TwitterCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
